@@ -1,10 +1,7 @@
 name: MCWorldGeneration
-version: 1.0
+version: "1.0"
 author: Woitee
-main: cz.woitee.mc.worldgeneration.HelloWorldPlugin
-description: A simple sample HelloWorld plugin for Spigot
+main: cz.woitee.mc.worldgeneration.MCWorldGenerationPlugin
+description: A starting world generation in Minecraft
 
-commands:
-  hello:
-    aliases: [hi]
-    description: This replies HelloWorld
+load: STARTUP
